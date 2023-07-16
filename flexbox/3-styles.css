@@ -391,17 +391,19 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
       
   /*** 4. CARD ***/
 
+   /* Section SERVICES
+      ============================= */
+      .section-services .row{
+        flex-wrap: wrap;
+      }
+
   /* Card (all styles)
       ============================= */
   
   .card-category {
     color: var(--color-primary);
   }
-  /* Section SERVICES
-      ============================= */
-      .section-services .row{
-        flex-wrap: wrap;
-      }
+ 
   
   /* Card WORK
       ============================= */
