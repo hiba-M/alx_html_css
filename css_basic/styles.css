@@ -2,17 +2,30 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    background: rgb(157,213,87);
+    background: radial-gradient(circle, rgba(157,213,87,1) 0%, rgba(34,159,82,1) 100%);    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 main{
     display: flex;
     flex-direction: row;
     flex: auto;
+    margin: 5px 10px;
 }
 article{
+  
+    border: 2px solid  burlywood ;
     flex: 2;
     overflow-y: auto;
+    margin: 5px 10px;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: inherit;
+    border: 2px solid  rgb(222, 135, 189) ;
+    margin: 5px 10px;
 }
