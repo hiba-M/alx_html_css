@@ -233,10 +233,9 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
   }
 
-  .nav-item + .nav-item {
+  .nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
   }
   
