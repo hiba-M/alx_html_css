@@ -393,8 +393,8 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 
    /* Section SERVICES 
       ============================= */
-      
-    .section-services .row{
+
+    .section-services .row { 
     flex-wrap: wrap;
     }
 
